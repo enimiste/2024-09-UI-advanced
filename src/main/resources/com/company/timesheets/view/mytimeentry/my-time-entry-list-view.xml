@@ -16,6 +16,12 @@
     </data>
     <facets>
         <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+        </urlQueryParameters>
+        <settings auto="true">
+            <component id="genericFilter" enabled="false"/>
+        </settings>
     </facets>
     <layout>
         <genericFilter id="genericFilter"
