@@ -1,5 +1,5 @@
 {
- "parent": "jmix-lumo",
+ "parent": "my-reusable-theme",
  "lumoImports": [
   "typography",
   "color",
