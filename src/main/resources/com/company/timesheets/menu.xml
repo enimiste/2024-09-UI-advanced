@@ -12,6 +12,7 @@
               title="msg://com.company.timesheets/menu_config.ts_Task.my.title"/>
         <item view="ts_TaskType_simple.list"
               title="msg://com.company.timesheets.view.tasktype/taskTypeListViewSimple.title"/>
+        <item view="ts_PdfTestView" title="msg://com.company.timesheets.view.pdftest/pdfTestView.title"/>
     </menu>
     <menu opened="true" id="projects" description="msg://com.company.timesheets/menu_config.projects.description"
           title="msg://com.company.timesheets/menu_config.projects.title">

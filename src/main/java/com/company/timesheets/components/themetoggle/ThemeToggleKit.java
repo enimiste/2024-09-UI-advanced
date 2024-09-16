@@ -1,10 +1,10 @@
-package com.company.timesheets.components;
+package com.company.timesheets.components.themetoggle;
 
 import com.vaadin.flow.component.shared.Tooltip;
 import io.jmix.flowui.kit.meta.*;
 
 @StudioUiKit
-public interface StudioComponents {
+public interface ThemeToggleKit {
     @StudioComponent( name = "ThemeToggle",
             classFqn = "com.company.timesheets.component.theme_toggle.ThemeToggle",
             category = "Components",

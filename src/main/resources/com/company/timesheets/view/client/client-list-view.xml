@@ -38,6 +38,7 @@
             <button id="createBtn" text="msg:///actions.Create" icon="PLUS" themeNames="primary"/>
             <simplePagination id="pagination" dataLoader="clientsDl"/>
         </hbox>
-        <virtualList id="clientsList" itemsContainer="clientsDc"/>
+        <virtualList id="clientsList" itemsContainer="clientsDc">
+        </virtualList>
     </layout>
 </view>

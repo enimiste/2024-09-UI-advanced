@@ -19,11 +19,15 @@ repositories {
     maven {
         url 'https://nexus.jmix.io/repository/public'
     }
+    maven {
+        url 'https://maven.vaadin.com/vaadin-addons'
+    }
     mavenLocal()
 }
 
 dependencies {
     implementation 'com.company:my-reusable-theme:1.0-SNAPSHOT'
+    implementation 'org.vaadin.addons.componentfactory:vcf-pdf-viewer:2.8.1'
 
     implementation 'io.jmix.core:jmix-core-starter'
     implementation 'io.jmix.data:jmix-eclipselink-starter'
